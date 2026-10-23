@@ -1,0 +1,17 @@
+
+TASK 2 - PRNG State Bottleneck
+Student ID: 230103303
+Threads: 4
+Total Samples: 40,000,000
+
+Shared PRNG:
+Computed PI: 3.141555300
+Absolute Error: 0.000037354
+Wall Time: 15788.411 ms
+
+Independent PRNG:
+Computed PI: 3.141124500
+Absolute Error: 0.000468154
+Wall Time: 7739.130 ms
+
+Speedup Factor: 2.040x
