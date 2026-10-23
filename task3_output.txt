@@ -1,0 +1,13 @@
+
+TASK 3 - Parallel Prefix Scan
+Student ID: 230103303
+Array Size: 2,000,000
+Threads: 8
+
+Serial Time: 5.998 ms
+Parallel Time: 3.101 ms
+Speedup: 1.935x
+Verification Status: PASS
+
+Serial Final Sum: 10998002
+Parallel Final Sum: 10998002
