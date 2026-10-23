@@ -1,0 +1,13 @@
+TASK 1 — ROW-MAJOR VS COLUMN-MAJOR PARALLEL CACHE TRAVERSAL
+Student ID: 230103303
+Logical core count: 12
+Physical core count: 12
+Parallel worker threads: 12
+Matrix: 8000 x 8000 (float64, C-contiguous)
+Timed repetitions per mode: 3 (best/minimum reported)
+Mode A (Row-Major) runtime: 11.422 ms
+Mode B (Column-Major / Strided) runtime: 157.512 ms
+Cache penalty factor (B / A): 13.790x
+Mode A sum: 32002214.47480819
+Mode B sum: 32002214.47480818
+SUM CHECK: PASSED
