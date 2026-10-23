@@ -1,0 +1,16 @@
+TASK 4 - IPC vs Shared Memory
+Student ID: 230103303
+Repeats: 3
+
+           N |    Pipe (ms) |  Shared (ms) |    Speedup
+---------------------------------------------------------
+     100,000 |        1.917 |        0.455 |      4.21x
+   1,000,000 |       21.269 |        6.174 |      3.44x
+  10,000,000 |      205.890 |       35.231 |      5.84x
+
+Path A: Pipe with Pickle serialization
+Path B: Zero-copy shared memory access
+Timing: Request-response including array sum.
+Shared memory initialization excluded.
+Process startup excluded.
+Benchmark Status: PASS
