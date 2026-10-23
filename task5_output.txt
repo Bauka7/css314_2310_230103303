@@ -1,0 +1,18 @@
+TASK 5 - Thread Oversubscription Threshold
+Student ID: 230103303
+Logical Cores: 12
+Total Tasks: 10,000
+Hash Repeats: 500
+
+   Pool Size |  Execution Time (ms) |    Speedup | Status
+---------------------------------------------------------------------------
+           1 |             6286.763 |     1.000x | BASELINE
+           6 |             6367.725 |     0.987x | DEGRADATION START
+          12 |             6606.665 |     0.952x | SLOWER
+          24 |             6546.204 |     0.960x | OK
+          48 |             6704.545 |     0.938x | SLOWER
+         192 |             5472.749 |     1.149x | OK
+         256 |             5419.020 |     1.160x | OK
+
+First observed degradation at pool size: 6
+Note: Python GIL may limit CPU-bound thread parallelism.
